@@ -1,0 +1,22 @@
+.container{
+    width: 300px;
+    height: 100%;
+    border: 10px solid black;
+    padding: 10px;
+
+}
+.btn{
+    display: block;
+    margin-top: 10px;
+}
+p{
+    display: inline;
+}
+body{
+    padding: 50vh 50vw ;
+    transform:translate(-150px, -150px );
+    -moz-transform: translate(-150px, -150px);
+}
+input{
+    border: 2px solid black;
+}

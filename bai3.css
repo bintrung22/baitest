@@ -1,0 +1,87 @@
+
+.container{
+    width: 1000px;
+    height: 1000px;
+    margin: 0px auto;
+}
+input {
+    font: 16px system-ui;
+    color: black;
+    height: 100%;
+    width: 200px;
+    padding: 6px 10px;
+  }
+  .navbar i{
+    position:relative;
+    left: 220px;
+  }
+ .navbar{
+    display: flex;
+    justify-content: space-between  ;
+ } 
+ body > div > div > div:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+ body > div > div > div:nth-child(2)>a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 20px;
+ }
+ .btn{
+    background-color: rgb(104, 50, 186);
+    border: 10px solid rgb(104, 50, 186);
+    border-radius: 10px;
+    color: white;
+ }
+.card{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 200px 200px;
+}
+.card-item h3{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.card-item h4{
+    font-size: 15px;
+    margin-bottom: 5px;
+    position: relative;
+    top:-15px
+}
+.card-item img{
+    height: 100px;
+    display: inline-block;
+    width: 100px;
+    position: relative;
+    top:-25px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.tag{
+display: flex; 
+flex-direction: row;
+}
+.tag-item{
+    display: block;
+    border: 2px solid rgb(112, 93, 231);
+    border-radius: 30px;
+    text-align: center;
+    padding: 0px 10px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.card-item {
+    margin: 10px;
+}
+
+.card-item:hover{
+
+    box-shadow:rgb(112, 93, 231); ;
+    border: 1px solid rgb(112, 93, 231);
+    border-radius: 20px;
+}
